@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src" /* Specify the base directory to resolve non-relative module names. */,
+    "rootDir": "src" /* Allow multiple folders to be treated as one when resolving modules. */,
+
+    //pra que não seja necessário ficar importando os arquivos utilizando ../../../ para subir as pastas, iremos utilizar o path, para mostrarmos o que queremos substituir
+    "paths": {
+      "@/*": ["*"]
+    } /* Specify a set of entries that re-map imports to additional lookup locations. */
+  }
+}
