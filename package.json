@@ -5,6 +5,9 @@
   "repository": "https://github.com/SamuelMenecucci/clean-cache-control.git",
   "author": "<samuelmm@ciandt.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --no-cache --watchAll"
+  },
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.23",
