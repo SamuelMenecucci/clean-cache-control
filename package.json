@@ -9,6 +9,8 @@
     "test": "jest --no-cache --watchAll"
   },
   "devDependencies": {
+    "@faker-js/faker": "^6.1.2",
+    "@types/faker": "^6.6.9",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.23",
     "jest": "^27.5.1",
